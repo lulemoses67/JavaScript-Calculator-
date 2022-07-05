@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Asap&family=Cedarville+Cursive&family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: rgba(240, 248, 255, 0.315);
+}
+
+h1, p {
+  text-align: center;
+}
+
+.row-content {
+  margin: 40px 0;
+}
+
+.calc {
+  margin: 0 auto;
+  max-width: 300px;
+  border: 1px outset gray;
+  border-radius: 9px;
+  background-color: white;
+}
+.calc .screen {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 60px;
+  color: black;
+  border-bottom: 1px solid;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.calc .keys {
+  padding: 12px 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(minmax(auto));
+}
+.calc .keys button {
+  margin: 3px;
+  width: 60px;
+  height: 60px;
+  justify-self: center;
+  border: none;
+  border-radius: 50%;
+}
+.calc .keys button:hover {
+  color: white;
+  background: rgba(0, 62, 128, 0.5333333333);
+}
+.calc .key-operater {
+  background-color: navy;
+  color: white;
+}
+.calc .key-equals {
+  background-color: orange;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
